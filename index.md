@@ -6,9 +6,11 @@ organisation: coala
 organisation_link : https://coala.io
 project: Improve Generic Bear Quality
 project_link: https://summerofcode.withgoogle.com/projects/#4866569388163072
-tarball: https://github.com/bkhanale
+tarball: https://github.com/bkhanale/GSoCReport/raw/master/ProjectPatches.tar.gz
 mentors: >
- [Sangam Kumar](https://github.com/sangamcse), [Abhinav Kaushlya](https://github.com/abhishalya) & [Kriti Rohilla](https://github.com/kriti21)
+ [Sangam Kumar](https://github.com/sangamcse),
+ [Abhinav Kaushlya](https://github.com/abhishalya) &
+ [Kriti Rohilla](https://github.com/kriti21)
 phase:
  - Bonding : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/2
  - Phase 1 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/3
@@ -16,10 +18,11 @@ phase:
  - Phase 3 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/5
 bio: >
  I'm a final year student of Computer Engineering at International Institute
- of Information Technology, Bhubaneswar. I worked on [coala](https://coala.io) project
- during my summer to improve the generic bear quality. I implemented few
- new bears (plugins) to improving the overall usability of coala. I also worked on
- autopep8 and coala's package manager giving them few more features to work with.
+ of Information Technology, Bhubaneswar. I worked on [coala](https://coala.io)
+ project during my summer to improve the generic bear quality. I implemented few
+ new bears (plugins) to improving the overall usability of coala. I also worked
+ on autopep8 and coala's package manager giving them few more features to work
+ with.
 social:
  - GitHub:
    - username: bkhanale
@@ -30,48 +33,48 @@ social:
  - Gitter:
    - username: bkhanale
    - link: https://gitter.im/bkhanale
- - LinkedIn:
-   - username: bhushan-khanale
-   - link: https://linkedin.com/in/bhushan-khanale
+ - OpenHub:
+   - username: bkhanale
+   - link: https://www.openhub.net/accounts/bkhanale
 email: bkhanale@gmail.com
 blog: https://medium.com/@bkhanale
 activity:
- - 0:
+ - 1:
    - repo: cEPs
    - link: https://github.com/coala/cEPs/pull/184
    - details: >
       cEP-0031: Improve Generic Bear Quality
- - 1:
+ - 2:
    - repo: coala
    - link: https://github.com/coala/coala/pull/6026
    - details: >
       Add `require_files` settings
- - 2:
+ - 3:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2912
    - details: > 
       bears/general: Add FileModeBear
- - 3:
+ - 4:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2928
    - details: >
       bears/general: Add OutdatedDependencyBear
- - 4:
+ - 5:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2934
    - details: >
       bears/general: Add RegexLintBear
- - 5:
+ - 6:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2935
    - details: >
       bears/python: Add RequirementsCheckBear
- - 6:
+ - 7:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/pull/2946
    - details: >
       IndentationBear: Ignore doc comments
- - 7:
+ - 8:
    - repo: dependency_management
    - link: https://gitlab.com/coala/package_manager/merge_requests/170
    - details: >
@@ -93,9 +96,8 @@ glob in `files`.
 3. coala's package manager has new function
 `get_latest_version` (currently only for PipRequirement and NpmRequirement) to
 fetch the latest version for the given package.
-4. New improvements to autopep8
-(yet to be merged) are set to provide a patches along with the issues reported
-by pycodestyle which would eventually enhance coala's PEP8Bear.
+4. [Pycodestyle - PEP8Bear integration](https://gist.github.com/bkhanale/3ae5c06302d69416f9537a049ed30293)
+to solve the issue of missing the issue statements while running the PEP8Bear.
 
 #### Challenges
 
